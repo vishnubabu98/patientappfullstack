@@ -7,4 +7,21 @@ import { Component } from '@angular/core';
 })
 export class AddpatientComponent {
 
+  name=""
+  age=""
+  place=""
+
+
+  readValues=()=>{
+    let data:any=
+      {
+        "name":this.name,
+        "age":this.age,
+        "place":this.place
+       
+      }
+      console.log(data)
+      
+
+}
 }
